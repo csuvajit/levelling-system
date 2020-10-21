@@ -20,6 +20,6 @@ const progressBar = [...Array(progress).fill('◼'), ...Array(20 - progress).fil
 ```
 LEVEL 2
 
-165 XP                   220 XP
+165 XP                  220 XP
 ◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◻◻◻◻◻
 ```
