@@ -1,4 +1,4 @@
-const levelsXp = new Array(250).fill(0).map((_, i) => (5 * (i ** 2)) + (50 * i) + 100);
+const levelsXP = new Array(250).fill(0).map((_, i) => (5 * (i ** 2)) + (50 * i) + 100);
 
 class Ranking {
     public level(totalXP: number | 0) {
@@ -15,8 +15,8 @@ class Ranking {
     private getLevel(xp: number | 0) {
         let restXP = Math.floor(xp);
         let level = 0;
-        while (restXP >= levelsXp[level]) {
-            restXP -= levelsXp[level];
+        while (restXP >= levelsXP[level]) {
+            restXP -= levelsXP[level];
             level += 1;
         }
 
@@ -24,6 +24,6 @@ class Ranking {
     }
 
     public random(min: number | 15, max: number | 25) {
-        return Math.floor(Math.random() * (max - min)) + Math.floor(min);
+        return Math.floor((Math.random() * (max - min)) + min);
     }
 }

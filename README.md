@@ -4,7 +4,7 @@
 ```js
 const totalXP = 420;
 
-console.log(new Ranking().level(totalXP));
+new Ranking().level(totalXP);
 ```
 
 ### Response
