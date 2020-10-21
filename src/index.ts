@@ -28,4 +28,4 @@ class Ranking {
     }
 }
 
-console.log(new Ranking().level(155));
+console.log(new Ranking().level(255));
