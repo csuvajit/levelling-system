@@ -27,5 +27,3 @@ class Ranking {
         return Math.floor(Math.random() * (max - min)) + Math.floor(min);
     }
 }
-
-console.log(new Ranking().level(420));
