@@ -2,7 +2,7 @@
 
 ### Example
 ```js
-const totalXP = 450;
+const totalXP = 420;
 
 console.log(new Ranking().level(totalXP));
 ```
